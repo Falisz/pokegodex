@@ -1,0 +1,84 @@
+html {
+    font-size: 16px;
+}
+.types-chart {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.types-chart-header,
+.types-chart-row {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+.types-chart-header-item,
+.types-chart-row-item {
+    font-size: .9rem;
+    font-weight: bold;
+    width: 5.2%;
+    flex: 0 5.2%;
+    padding: 10px;
+    border-radius: 12px;
+}
+.bg-Bug {
+    background: linear-gradient(90deg, #b4ca29 0, #99c631 80%) !important;
+}
+.bg-Dark {
+    background: linear-gradient(90deg, #5b606c 0, #4a4858 80%) !important;
+}
+.bg-Dragon {
+    background: linear-gradient(90deg, #0693cf 0, #0763ad 80%) !important;
+}
+.bg-Electric {
+    background: linear-gradient(135deg, #fbe271 0, #f5d13e 80%) !important;
+}
+.bg-Fairy {
+    background: linear-gradient(90deg, #f7abde 0, #ef8dde 80%) !important;
+}
+.bg-Fighting {
+    background: linear-gradient(90deg, #ce426b 0, #e24653 80%) !important;
+}
+.bg-Fire {
+    background: linear-gradient(90deg, #ffae4a 0, #ff9c52 80%) !important;
+}
+.bg-Flying {
+    background: linear-gradient(90deg, #a5c2f1 0, #88adde 80%) !important;
+}
+.bg-Ghost {
+    background: linear-gradient(90deg, #7376dc 0, #526bae 80%) !important;
+}
+.bg-Grass {
+    background: linear-gradient(90deg, #8cd26b 0, #63bd52 80%) !important;
+}
+.bg-Ground {
+    background: linear-gradient(90deg, #d6996a 0, #d87846 80%) !important;
+}
+.bg-Ice {
+    background: linear-gradient(90deg, #90dbd8 0, #71cec2 80%) !important;
+}
+.bg-Normal {
+    background: linear-gradient(90deg, #aeaca5 0, #9399a5 80%) !important;
+}
+.bg-Poison {
+    background: linear-gradient(90deg, #c55ed6 0, #a567c7 80%) !important;
+}
+.bg-Psychic {
+    background: linear-gradient(90deg, #eda49b 0, #f86e76 80%) !important;
+}
+.bg-Rock {
+    background: linear-gradient(90deg, #ddd294 0, #c6bd8c 80%) !important;
+}
+.bg-Steel {
+    background: linear-gradient(90deg, #5eb0ad 0, #5a90a9 80%) !important;
+}
+.bg-Water {
+    background: linear-gradient(90deg, #71c4ea 0, #5395de 80%) !important;
+}

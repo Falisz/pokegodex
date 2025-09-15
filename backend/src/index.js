@@ -1,6 +1,7 @@
 //BACKEND/index.js
 import express from 'express';
 import dotenv from 'dotenv';
+import appRoutes from './api.js';
 
 dotenv.config();
 
@@ -13,6 +14,8 @@ const ERROR = `\x1b[31m[ERROR]\x1b[0m`;
 const WARN = `\x1b[1;33m[WARN]\x1b[0m`;
 
 app.use(express.json());
+
+app.use('/', appRoutes);
 
 app.use((req, res, next) => {
     const ip = req.ip || req.headers['x-forwarded-for'] || 'Unknown IP';
